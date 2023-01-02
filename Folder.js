@@ -16,7 +16,7 @@ fs.writeFile(path.join(Direct + `/${value}.txt`), `${value}`, function (err) {
 })
 
 // //Read a File Directory.
-//     fs.readFile(`${Direct}/${value}.txt`,"utf-8",function(err,data){
-//     if(err) throw err;
-//     console.log(data);
-// })
+    fs.readFile(`${Direct}/${value}.txt`,"utf-8",function(err,data){
+    if(err) throw err;
+    console.log(data);
+})
