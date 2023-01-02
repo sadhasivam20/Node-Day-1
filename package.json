@@ -1,0 +1,16 @@
+{
+  "name": "node-day-1",
+  "version": "1.0.0",
+  "description": "Folder_Make",
+  "main": "Folder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Folder.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-and-time": "^2.4.1",
+    "nodemon": "^2.0.19"
+  }
+}
